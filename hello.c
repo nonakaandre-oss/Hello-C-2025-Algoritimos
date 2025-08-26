@@ -1,6 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    printf("Olá mundo!!!");
+    int idade;
+
+    idade = 35;
+
+    printf("Olá mundo!!!\n");
+    printf("idade: %d\n" , idade);
     return 0;
 }
